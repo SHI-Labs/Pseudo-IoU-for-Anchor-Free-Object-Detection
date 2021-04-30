@@ -7,6 +7,11 @@ By [Jiachen Li](https://chrisjuniorli.github.io/), [Bowen Cheng](https://bowenc0
 Our code is based on [mmdetection](https://github.com/open-mmlab/mmdetection) will be released soon.
 
 ## Introduction
+
+<p align="center">
+  <img src="figs/fig1.pdf" width="40%">
+</p>
+
 Current anchor-free object detectors are quite simple and effective yet lack accurate label assignment methods, which limits their potential in competing with classic anchor-based models that are supported by welldesigned assignment methods based on the Intersectionover-Union (IoU) metric. In this paper, we present Pseudo Intersection-over-Union (Pseudo-IoU): a simple metric that brings more standardized and accurate assignment rule into anchor-free object detection frameworks without any additional computational cost or extra parameters for training and testing, making it possible to further improve anchor-free object detection by utilizing training samples of good quality under effective assignment rules that have been previously applied in anchor-based methods. By incorporating Pseudo-IoU metric into an end-toend single-stage anchor-free object detection framework, we observe consistent improvements in their performanceon general object detection benchmarks such as PASCAL VOC and MSCOCO. Our method (single-model and singlescale) also achieves comparable performance to other recent state-of-the-art anchor-free methods without bells and whistles.
 
 ## Citation
