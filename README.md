@@ -26,11 +26,11 @@ Please following the installation of mmdetection and merges Pseudo-IoU configs a
 
 More models will be released soon
 
-| Backbone  | Lr schd | box_mAP | box_mAP_50| box_mAP_75 | box_mAP_s | box_mAP_m | box_mAP_l | Config | Download |
-|:---------:|:-------:|:-------:|:---------:|:----------:|:---------:|:---------:|:---------:|:------:|:--------:|
-| R-50      | 1x      | 38.4    | 57.4      |       40.9 |23.8       |42.5       |48.8       | [config](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection/blob/main/configs/pseudo-iou/piou_r50_caffe_fpn_gn-head_1x_coco.py) | [model](https://drive.google.com/file/d/1xO1oeF1qqsZzsvJzH-MtcKyBOsOzZbrx/view?usp=sharing) |
-| R-101      | 1x      | 40.4    | 59.5      |       40.9 |23.7       |44.9       |51.4       | [config](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection/blob/main/configs/pseudo-iou/piou_r101_caffe_fpn_gn-head_1x_coco.py) | [model](https://drive.google.com/file/d/1Hcq6szBnWgeGOhIGIS9cSaVTt4eC46qE/view?usp=sharing) |
-
+| Backbone    | Lr schd | box_mAP | box_mAP_50| box_mAP_75 | box_mAP_s | box_mAP_m | box_mAP_l | Config | Download |
+|:-----------:|:-------:|:-------:|:---------:|:----------:|:---------:|:---------:|:---------:|:------:|:--------:|
+| R-50        | 1x      | 38.4    | 57.4      |       40.9 |23.8       |42.5       |48.8       | [config](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection/blob/main/configs/pseudo-iou/piou_r50_caffe_fpn_gn-head_1x_coco.py) | [model](https://drive.google.com/file/d/1xO1oeF1qqsZzsvJzH-MtcKyBOsOzZbrx/view?usp=sharing) |
+| R-101       | 1x      | 40.4    | 59.5      |       40.9 |23.7       |44.9       |51.4       | [config](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection/blob/main/configs/pseudo-iou/piou_r101_caffe_fpn_gn-head_1x_coco.py) | [model](https://drive.google.com/file/d/1Hcq6szBnWgeGOhIGIS9cSaVTt4eC46qE/view?usp=sharing) |
+| R-101-DCN   | 2x      | 43.5    | 62.9      |       46.6 |25.7       |47.4       |57.6       | [config](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection/blob/main/configs/pseudo-iou/piou_r101_caffe_fpn_gn-head_1x_coco.py) | [model](https://drive.google.com/file/d/1xGZYPr0MZv-ETN8rUO8gnzdyQUskmNv8/view?usp=sharing) |
 ## Citation
 
 ```bibtex
