@@ -20,7 +20,7 @@ Current anchor-free object detectors are quite simple and effective yet lack acc
 - CUDA 11.0
 - MMdetection v2.11.0
 
-Please following the installation of mmdetection and merges Pseudo-IoU configs and models into mmdetection folder.
+Please following the installation of [mmdetection](https://github.com/open-mmlab/mmdetection) and merges Pseudo-IoU configs and models into mmdetection folder.
 
 ## Results
 
